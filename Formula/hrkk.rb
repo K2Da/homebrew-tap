@@ -7,10 +7,10 @@ class Hrkk < Formula
   base_url = "https://github.com/K2Da/hrkk/releases/download"
   if OS.linux?
     url "#{base_url}/#{v}/hrkk-#{v}-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "b9b7043191fd76bedaa3dbaf105c5c91f30520bace5e6f98a4db3e42781ba311"
+    sha256 "e148286f03cf0ae565aa549c404e01dbc05a3a4a98931b1283bc4a4e7e7d66f7"
   elsif OS.mac?
     url "#{base_url}/#{v}/hrkk-#{v}-x86_64-apple-darwin.tar.gz"
-    sha256 "6406c3b0032adbac4b0eb11c3a29b9c8a3c307f3b5cad78762deea9df802bc37"
+    sha256 "b1c956934cecd21c6f3cc9b3cd3b673d0f936d648b1a360949a51462621d9c19"
   end
 
   def install
